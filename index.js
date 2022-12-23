@@ -2,7 +2,6 @@ let history = []
 var pos = { x: 0, y: 0 };
 var pathidx = 0;
 
-
 var canvas = document.createElement('canvas');
 document.getElementById('canvas').appendChild(canvas);
 
