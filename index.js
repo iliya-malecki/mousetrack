@@ -18,7 +18,8 @@ exportJson = (el) => {
     var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(
         JSON.stringify({
             'data': history,
-            'image': background.src
+            'image': background.src,
+            'useragent': window.navigator.userAgent
         })
     );
 
