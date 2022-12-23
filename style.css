@@ -1,0 +1,16 @@
+
+.canvas {
+    text-align: center;
+}
+
+
+.button {
+    position: relative;
+    margin: 20px;
+    width: 20%;
+    left: 40%;
+    color: rgb(220, 233, 245);
+    background: rgb(35, 35, 35);
+    padding: 10px;
+    border-radius: 20px;
+}
